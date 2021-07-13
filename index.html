@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 <body>
@@ -20,15 +21,21 @@
             <input type="number" name="pages" placeholder="pages" class="form-control">
             <input type="submit" class="form-control submit-control">
         </form> 
-        <ul id="cafe-list" class="list-group" >
+        <!-- pc screen -->
+        <!-- <ul id="cafe-list" class="list-group" >
           <li class="list-gr headers" >
             <p class="changeCss" >book</p>
             <p class="changeCss" >author</p>
             <p class="changeCss" >pages</p>
             <span class="first-row" ></span>
           </li>
-            
-        </ul>
+        </ul> -->
+        <!-- mobile screen -->
+        
+
+          <div class="group-content" id="cafe-list">
+              
+          </div>
     </div>
 
 

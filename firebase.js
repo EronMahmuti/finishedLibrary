@@ -20,22 +20,22 @@ const form = document.querySelector('#add-cafe-form');
 
 //create element and render cafe
 function renderCafe(doc){
-    let li = document.createElement('li');
+    let li = document.createElement('div');
     let name = document.createElement('p');
     let author = document.createElement('p');
     let pages = document.createElement('p');
     let cross = document.createElement('button');
     
-    li.className = "list-gr";
+    li.className = "list-content";
     name.className = "changeCss";
     author.className = "changeCss";
     pages.className = "changeCss pags";
     cross.className = "deleteBtn"
 
     li.setAttribute('data-id', doc.id)
-    name.textContent = doc.data().name;
-    author.textContent = doc.data().author;
-    pages.textContent = doc.data().pages;
+    name.innerHTML = `<i class="fas fa-book"></i> ${doc.data().name}`;
+    author.innerHTML = `<i class="fas fa-pencil-alt"></i> ${doc.data().author}`;
+    pages.innerHTML = `<i class="far fa-file-alt"></i> ${doc.data().pages}`;
     cross.textContent = 'delete';
 
     li.appendChild(name);
@@ -63,6 +63,7 @@ function renderCafe(doc){
 // });
 
 //saving data
+//
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();

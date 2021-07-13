@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: cadetblue;
+}
+h1{
+    text-align: center;
+    margin-top: 1.5rem;
+    line-height: 1em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+
+}
+.submit-control{
+    font-weight: 600;
+    color: #333;
+    background: rgba( 255, 255, 255, 0.60 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.0px );
+    -webkit-backdrop-filter: blur( 11.0px );
+    border-radius: 10px;
+    border: 2px solid rgba( 31, 38, 135, 0.37 ) ;
+}
+#add-cafe-form{
+    width: 80%;
+}
+.form-control{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.content{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    background: rgba( 255, 255, 255, 0.60 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.0px );
+    -webkit-backdrop-filter: blur( 11.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-top: 2rem;
+}
+.list-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.list-gr{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    justify-content: space-between;
+    height: 50px;
+    border-top: 2px solid #666;
+    border-radius: 4px;
+}
+.headers{
+    font-weight: 600;
+    font-size: 19px;
+    border: none;
+    color: #555;
+    text-transform: uppercase;
+}
+.first-row{
+    margin-right: 80px;
+}
+.changeCss{
+    margin: 5px;
+    padding: 5px;
+    color: #444;
+    padding-top: 8px;
+    font-weight: 600;
+    width: 200px;
+    text-transform: capitalize;
+}
+.deleteBtn{
+    border-radius: 4px;
+    border: 3px solid transparent;
+    margin: 5px;
+    background: #444857;
+    color: #666;
+    cursor: pointer;
+    font-weight: 600;
+    background: rgba( 255, 255, 255, 0.40 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
+    border-radius: 10px;
+    border: 2px solid #777;
+}
+.deleteBtn:hover{
+    border: 2px solid transparent;
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    .changeCss{
+        padding: 5px;
+        color: #444;
+        font-weight: 600;
+        max-width: 200px;
+        text-transform: capitalize;
+        margin-bottom: 8px;
+    }
+    .pags{
+        max-width: 100px;
+    }
+    .first-row{
+        margin-right: 50px;
+    }
+    
+        .content{
+            width: 95%;
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1rem;
+        }
+  }

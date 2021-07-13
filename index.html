@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Library Books</h1>
+    <div class="content">
+        <form action="" id="add-cafe-form" autocomplete="off">
+            <input type="text" name="name" placeholder="book name" class="form-control">
+            <input type="text" name="author" placeholder="author name" class="form-control">
+            <input type="number" name="pages" placeholder="pages" class="form-control">
+            <input type="submit" class="form-control submit-control">
+        </form> 
+        <ul id="cafe-list" class="list-group" >
+          <li class="list-gr headers" >
+            <p class="changeCss" >book</p>
+            <p class="changeCss" >author</p>
+            <p class="changeCss" >pages</p>
+            <span class="first-row" ></span>
+          </li>
+            
+        </ul>
+    </div>
+
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        
+        
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+
+        <script src="firebase.js"></script>
+       
+
+
+</body>
+</html>

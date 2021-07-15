@@ -49,6 +49,7 @@ function renderCafe(doc){
     cross.addEventListener('click', (e) => {
         e.stopPropagation();
         let id = e.target.parentElement.getAttribute('data-id');
+        
         db.collection('cafes').doc(id).delete();
     })
 }

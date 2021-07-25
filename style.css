@@ -129,7 +129,7 @@ h1{
         justify-content: space-between;
         border-radius: 7px;
         width: 85%;
-        margin-top: 8px;
+        margin-top: 12px;
     }
 
     .changeCss{
@@ -137,10 +137,10 @@ h1{
         color: #444;
         font-weight: 600;
         text-transform: capitalize;
-        margin-bottom: 8px;
+        margin-bottom: 12px;
     }
     .pags{
-        max-width: 100px;
+        max-width: 120px;
     }
     .first-row{
         margin-right: 50px;
